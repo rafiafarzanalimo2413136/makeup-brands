@@ -1,13 +1,13 @@
 # Makeup Brands Management System
 
-This is a simple web application that allows users to view, search, add, update, and delete makeup brands. The project is built using **PHP**, **MySQL**, **Twig** template engine, and enhanced with **AJAX** for a dynamic and responsive user experience.
+This web application was created by **Rafia Farzana Limo** as part of the coursework for 5CS045 - Full Stack Development. The project allows users to view, search, add, update, and delete makeup brands. It also features secure user authentication and uses modern web development technologies, including **PHP**, **MySQL**, **Twig**, and **AJAX**.
 
 ## Features
 
-- **User Authentication**: Secure user login and registration with password encryption.
-- **CRUD Operations**: Add, edit, and delete makeup brands in the database.
-- **Search Functionality**: Search for brands based on multiple criteria (name, country, description).
-- **AJAX Autocomplete**: Real-time search suggestions using AJAX to enhance user experience.
-- **Security**: Input filtering, output escaping, sessions for protecting sensitive pages, CAPTCHA protection for registration.
-- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **User Authentication**: Secure login and registration with password encryption and CAPTCHA protection.
+- **CRUD Operations**: Allows users to add, view, edit, and delete makeup brands from the database.
+- **Search Functionality**: Advanced search that enables searching by multiple criteria (name, country, description) using AJAX for autocomplete.
+- **AJAX Integration**: Real-time search suggestions enhance the user experience.
+- **Security**: Implemented input filtering, output escaping, session protection for sensitive pages, CAPTCHA, and encrypted passwords to safeguard the application.
+- **Responsive Design**: Fully responsive design that works seamlessly on both desktop and mobile devices.
 
