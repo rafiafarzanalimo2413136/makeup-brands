@@ -11,15 +11,3 @@ This is a simple web application that allows users to view, search, add, update,
 - **Security**: Input filtering, output escaping, sessions for protecting sensitive pages, CAPTCHA protection for registration.
 - **Responsive Design**: Works seamlessly on both desktop and mobile devices.
 
-## Installation
-
-### Prerequisites:
-- PHP >= 7.2
-- MySQL >= 5.7
-- Composer (for Twig dependency management)
-
-### Steps to Run the Project:
-
-1. **Clone the repository** to your local machine:
-   ```bash
-   git clone https://github.com/your-username/makeup-brands.git
