@@ -1,2 +1,25 @@
-# makeup-brands
-This is a full-stack web application built with PHP, MySQL, and Twig. It allows users to manage and view information about makeup brands. Users can search, add, update, and delete makeup brands, with secure user authentication and role management.
+# Makeup Brands Management System
+
+This is a simple web application that allows users to view, search, add, update, and delete makeup brands. The project is built using **PHP**, **MySQL**, **Twig** template engine, and enhanced with **AJAX** for a dynamic and responsive user experience.
+
+## Features
+
+- **User Authentication**: Secure user login and registration with password encryption.
+- **CRUD Operations**: Add, edit, and delete makeup brands in the database.
+- **Search Functionality**: Search for brands based on multiple criteria (name, country, description).
+- **AJAX Autocomplete**: Real-time search suggestions using AJAX to enhance user experience.
+- **Security**: Input filtering, output escaping, sessions for protecting sensitive pages, CAPTCHA protection for registration.
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+
+## Installation
+
+### Prerequisites:
+- PHP >= 7.2
+- MySQL >= 5.7
+- Composer (for Twig dependency management)
+
+### Steps to Run the Project:
+
+1. **Clone the repository** to your local machine:
+   ```bash
+   git clone https://github.com/your-username/makeup-brands.git
