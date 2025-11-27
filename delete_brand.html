@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+
+{% if success_message %}
+    <p style="color:green;">{{ success_message }}</p>
+{% endif %}
+
+{% if error_message %}
+    <p style="color:red;">{{ error_message }}</p>
+{% endif %}
+
+<p><a href="index.php">Back to Home</a></p>
+{% endblock %}

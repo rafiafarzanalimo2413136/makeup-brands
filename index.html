@@ -1,0 +1,42 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+
+    <!-- Search form with multi-criteria -->
+    <form method="GET" action="index.php">
+        <input type="text" name="search" placeholder="Search brands..." value="{{ search_query }}">
+        <input type="text" name="country" placeholder="Search by country" value="{{ country_query }}">
+        <input type="text" name="year" placeholder="Search by founded year" value="{{ year_query }}">
+        <button type="submit">Search</button>
+    </form>
+
+    <!-- Display search results -->
+    <h2>Results:</h2>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Founded Year</th>
+            <th>Description</th>
+            <th>Website</th>
+        </tr>
+        {% for brand in brands %}
+            <tr>
+                <td>{{ brand.name }}</td>
+                <td>{{ brand.country }}</td>
+                <td>{{ brand.founded_year }}</td>
+                <td>{{ brand.description }}</td>
+                <td><a href="{{ brand.website }}" target="_blank">Visit</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <!-- No results found message -->
+    {% if brands|length == 0 %}
+        <p>No brands found matching your criteria.</p>
+    {% endif %}
+
+    <div id="autocomplete-box" style="display: none;"></div>
+
+{% endblock %}
