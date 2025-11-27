@@ -11,3 +11,4 @@ This web application was created by **Rafia Farzana Limo** as part of the course
 - **Security**: Implemented input filtering, output escaping, session protection for sensitive pages, CAPTCHA, and encrypted passwords to safeguard the application.
 - **Responsive Design**: Fully responsive design that works seamlessly on both desktop and mobile devices.
  
+  
